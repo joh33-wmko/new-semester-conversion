@@ -9,7 +9,7 @@ Development on local machine to run on any server
 
 Organization:
 
-- Project root:
+- Project root
 
   - php_files/ (originals)
 
@@ -28,19 +28,9 @@ Container: TBD
 Additional module(s): TBD
 
 
-Reverts to manual procesing of xlsx -> sql files to db imports:
+Note: Reverts to manual procesing of xlsx -> sql files to db imports
 
-
-    - removes end-to-end automation
-
-
-    - auto-filetype detection
-
-
-    - auto db updates
-
-
-    - separates telescope schedule from staff schedule
+removes end-to-end automation, auto-filetype detection, auto db updates, separates telescope schedule from staff schedule
 
 
 IPYNB's: 
@@ -74,7 +64,6 @@ IPYNB's:
 
 
    - Implement list of fixes (like replacing TBD with actual values, and check list of recent issues)
-
 
 
 

@@ -22,40 +22,6 @@ Organization:
   - python_files/ (.py files for command line use, tbd)
 
 
-IPYNB's: 
-
-1. Staff Schedules (SA, OA, NA. but not EEOC)
-
-
-  - Run as xlsx files are  received
-
-
-  - Convert xlsx file to .csv file
-
-
-  - Enter the following into the .ipynb notebook:
-
-
-  - type: SA, OA, or NA (not EEOC)
-
-
-  - copy the .csv file(s) to the project's input_files/ dir
-
-
-  - Execute the relevant cells in the notebook
-
-
-  - Find generated .sql files in the output_files/ dir
-
-
-
-2. Telescope Scheudule
-
-
-   - Implement list of fixes (like replacing TBD with actual values, and check list of recent issues)
-
-
-
 Container: TBD
 
 
@@ -75,6 +41,41 @@ Reverts to manual procesing of xlsx -> sql files to db imports:
 
 
     - separates telescope schedule from staff schedule
+
+
+IPYNB's: 
+
+1. Staff Schedules (SA, OA, NA. but not EEOC)
+
+
+  - Run as xlsx files are  received
+
+
+  - Convert xlsx file to .csv file
+
+
+  - Enter the following into the .ipynb notebook:
+
+
+    - type: SA, OA, or NA (not EEOC)
+
+
+    - copy the .csv file(s) to the project's input_files/ dir
+
+
+  - Execute the relevant cells in the notebook
+
+
+  - Find generated .sql files in the output_files/ dir
+
+
+
+2. Telescope Scheudule
+
+
+   - Implement list of fixes (like replacing TBD with actual values, and check list of recent issues)
+
+
 
 
 [Updated: 27-Jul-2026]

@@ -17,7 +17,7 @@ Organization:
 
   - notebooks/ (.ipynb "notebooks")
 
-  - input_fules/ (.csv files exported from .xlsx|.xlsm files)
+  - input_files/ (.csv files exported from .xlsx|.xlsm files)
 
   - output_files/ (.sql db import files)
 
@@ -44,7 +44,7 @@ IPYNB's:
     - Copy the .csv file(s) to the project's input_files/ dir
 
 
-    - Enter the following into the .ipynb notebook:
+    - Set the notebook input cell with the following values:
 
 
       - type: SA, OA, or NA (not EEOC)

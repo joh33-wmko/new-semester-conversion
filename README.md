@@ -3,8 +3,10 @@ New Semester Conversion
 
 Converts PHP files to operate in IPYNBs
 
+- Development on local machine to run on any server
 
-Development on local machine to run on any server
+- Caveat: Reverts to manual procesing of xlsx -> sql files to db imports removes 
+end-to-end automation, auto-filetype detection, auto db updates, separates telescope schedule from staff schedule
 
 
 Organization:
@@ -26,11 +28,6 @@ Container: TBD
 
 
 Additional module(s): TBD
-
-
-Note: Reverts to manual procesing of xlsx -> sql files to db imports
-
-removes end-to-end automation, auto-filetype detection, auto db updates, separates telescope schedule from staff schedule
 
 
 IPYNB's: 

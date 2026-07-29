@@ -38,25 +38,31 @@ IPYNB's:
 1. Staff Schedules (SA, OA, NA. but not EEOC)
 
 
-  - Run as xlsx files are  received
+    - Run as xlsx files are  received
 
 
-  - Convert xlsx file to .csv file
+    - Convert xlsx file to .csv file
 
 
-  - Enter the following into the .ipynb notebook:
+    - Copy the .csv file(s) to the project's input_files/ dir
 
 
-    - type: SA, OA, or NA (not EEOC)
+    - Enter the following into the .ipynb notebook:
 
 
-    - copy the .csv file(s) to the project's input_files/ dir
+      - type: SA, OA, or NA (not EEOC)
 
 
-  - Execute the relevant cells in the notebook
+      - input .csv filename in input_files/
 
 
-  - Find generated .sql files in the output_files/ dir
+      - date range (TBD)
+
+
+    - Execute the relevant cells in the notebook
+
+
+      - Find generated .sql files in the output_files/ dir
 
 
 
